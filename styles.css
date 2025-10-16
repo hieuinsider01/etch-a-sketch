@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1020px;
+    /* max-height: 1020px; */
+    /* max-height: 960px; */
+    margin: 0 auto;
+}
+
+.grid-item {
+    background-color: aqua;
+    border: 1px solid black;
+    /* This ensures that the border is included in the element's total width and height */
+    box-sizing: border-box;
+}
